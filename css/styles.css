@@ -16,7 +16,9 @@ h1 {
 .container {
     background-color: #FF9671;
     border: 1px solid black;
-    margin: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
 }
 
 .title {
