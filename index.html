@@ -1,63 +1,50 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Media Queries</title>
-<style>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Module 2 Coding Assignment</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <h1>Our Menu</h1>
 
-/********** Base styles **********/
-h1 {
-  margin-bottom: 15px;
-}
+        <div class="row">
+            <div class="padding">
+                <div class="container">
+                    <p class="title" id="chicken">
+                        Chicken
+                    </p>
+                    <p class="content">
+                        鸡（学名：Gallus gallus domesticus），是原鸡属原鸡中被人类驯化后而成的亚种，家鸡最初被驯化成为家禽的目的是提供廉价优质的动物蛋白质食物来源，是家畜及家禽中数量最多，分布也最广的。据统计，鸡的总数于2011年超过190亿只，高于世界上其他鸟类的总和。鸡已丧失了大部分的飞行能力，但还留有极少的飞行能力，只能飞一小段，和大部分雉科鸟类一样不善飞，但因为在人类刻意配种喂食下，鸡被养成超重，不成比例的肥大，飞行能力才会比其他野生雉科鸟类还要差。鸡是可以自然养育的动物，主要以昆虫、蠕虫及各种五谷杂粮等为食。
+                    </p>
+                </div>
+            </div>
+    
+            <div class="padding">
+                <div class="container">
+                    <p class="title" id="beef">
+                        Beef
+                    </p>
+                    <p class="content">
+                        牛肉是指从牛身上得出的肉，为常见的肉品之一。肌肉部分可以切成牛排、牛肉块或牛仔骨，也可以与其他的肉混合做成香肠或血肠。一般常见的肉牛多为阉牛，肉质和小母牛相似，但阉牛的脂肪更少。年纪大的母牛和公牛肉质粗硬，常用来做牛绞肉。肉牛一般需要经过育肥，饲以谷物、膳食纤维、蛋白质、维生素和矿物质。牛肉是世界第三消耗肉品，约占肉制品市场的25%。落后于猪肉（38%）和家禽（30%）。美国、巴西和中国是世界消费牛肉前三的国家。按2009年人年消费来看，阿根廷以64.6千克排名第一，美国为42.1千克，欧洲为11.9千克。
+                    </p>
+                </div>
+            </div>
+    
+            <div class="padding" id="third-padding">
+                <div class="container">
+                    <p class="title" id="sushi">
+                        Sushi
+                    </p>
+                    <p class="content">
+                        寿司（日语：寿司、鮓、鮨、寿し〔壽司〕／すし sushi）是一种日本料理，主要材料是用醋、糖、盐调味过，以肥小而稍带甜味的日本珍珠米所煮成的醋饭，降温后加上鱼肉、海鲜、蔬菜、鸡蛋或其他肉类等作配料。醋饭原为一种保存食物的方法：以醋酸令食物的酸碱值下降，抑制微生物生长，以减缓食物腐败。寿司既可以作为小吃也可以作正餐，配料可以是生的、也可以是熟的，又或是腌过的。配料的不同，不同寿司的价格、水准差距甚大。寿司除了是日本人喜爱的食物之外，在日本以外地区也十分流行，世界各地回转寿司式的寿司店与包装寿司也不胜其数。
+                    </p>
+                </div>
+            </div>
+        </div>
+        
 
-p {
-  border: 1px solid black;
-  margin-bottom: 15px;
-}
-#p1 {
-  background-color: #A52A2A;
-  width: 300px;
-  height: 300px;
-}
-#p2 {
-  background-color: #DEB887;
-  width: 50px;
-  height: 50px;
-}
-
-/********** Large devices only **********/
-@media (min-width: 1200px) {
-  #p1 {
-    width: 80%;
-  }
-  #p2 {
-    width: 150px;
-    height: 150px;
-  }
-}
-
-
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-  #p1 {
-    width: 50%;
-  }
-  #p2 {
-    width: 100px;
-    height: 100px;
-  }
-  body {
-    background-color: blue;
-  }
-}
-
-</style>
-</head>
-<body>
-<h1>Media Queries</h1>
-
-<p id="p1"></p>
-<p id="p2"></p>
-
-</body>
+    </body>
 </html>
